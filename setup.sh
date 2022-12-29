@@ -22,17 +22,17 @@ echo -e "\033[31m\033[1m        INSTALLED SUCCESSFULLY \033[32m[\033[36m✓\033[
 echo -e "\033[33m\033[1m]────────────────────────────────────────────["
 termux-setup-storage
 cd $HOME 
-cd X-TOOL 
+cd XTOOL 
 cp login.sh $PREFIX/etc
 cd $HOME
-cd X-TOOL 
-chmod +x login.sh delete.sh setup.sh sound_effect.py banner.sh 
+cd XTOOL 
+chmod +x *
 mkdir Song 
 mv Access-Granted.mp3 Jarvis2.mp3 JARVIS.mp3 sound_effect.py Song
 rm 1
 mv network.py /sdcard
 
 cd $HOME 
-cd X-TOOL 
+cd XTOOL 
 
 bash login.sh
